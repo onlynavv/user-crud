@@ -1,0 +1,15 @@
+.home-wrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.btn {
+  background: #1976d2;
+  color: white;
+}
+
+.btn > svg {
+  margin-right: 5px;
+}

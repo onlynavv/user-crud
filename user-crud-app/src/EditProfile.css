@@ -1,0 +1,53 @@
+.edit-profile-wrapper {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.form-div {
+  width: 100%;
+}
+
+.form-div > * {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form-card {
+  padding: 25px 15px;
+  width: 100%;
+}
+
+form > div > input {
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .edit-profile-wrapper {
+    width: 650px;
+  }
+
+  .form-card {
+    width: 100%;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-div {
+    width: 75%;
+  }
+
+  form > div > input {
+    height: 35px;
+    padding: 5px;
+  }
+}
